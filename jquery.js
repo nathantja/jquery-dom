@@ -9,6 +9,7 @@ const $paragraphs = $("article > p");
 $paragraphs[$paragraphs.length - 1].remove();
 
 //css method to select last one: lastChild
+//https://api.jquery.com/last-child-selector/
 $("article p:last-child").remove();
 
 // jquerymethod
